@@ -1,0 +1,19 @@
+
+
+
+//It.7. 
+let michaelWorker = workers[0] 
+const workerFirstWeb = document.querySelector("#michael-web"); 
+const workerDivElement = document.createElement("div"); workerDivElement.className = 'card' 
+workerFirstWeb.appendChild(workerDivElement); 
+workerDivElement.innerHTML =  `
+<img src="${michaelWorker.photo}" alt="img of ${michaelWorker.name}"> 
+<h2>${michaelWorker.name}</h2> 
+<h3>${michaelWorker.position}</h3> 
+<p><a href="${michaelWorker.email}"> ${michaelWorker.email}</a></p>
+`;
+
+//End It.7
+
+
+
